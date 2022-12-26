@@ -1,0 +1,435 @@
+
+:root {
+    --red: #a2214e;
+    --blue: #27143a;
+    --white: #ffff;
+    --black: #0000;
+}
+
+
+/* for pc */
+
+@media (min-width : 1024px) {
+    #header i {
+        display: none!important;
+    }
+
+    #header {
+        display: block;
+    }
+}
+
+/* ***** */
+
+/* for tablet */
+@media (max-width: 1023px) {
+    body #header {
+        height: 8%;
+        position: relative;
+        padding: 8px 32px;
+        z-index: 1000;
+    }
+
+    #content .content-container {
+        padding: 32px 6%;
+    }
+
+    .writeup-tag {
+        padding: 20px 20px;
+    }
+
+    #header .nav-container {
+        z-index: 1000;
+        position: absolute;
+        right: 0;
+        top: calc(100% - 3px);
+        animation: activeNav ease-in-out 0.3s;
+        transition: all 0.3s;
+        display: none;
+    }
+
+    .more-btn {
+        padding: 0 20px;
+    }
+
+    #header .nav-container ul {
+        background-color: var(--blue);
+        display: block;
+    }
+
+    #header .nav-container.active {
+        display: block;
+    }
+
+    #header .nav-container ul > li {
+        display: block;
+        padding: 0px 40px;
+        text-align: center;
+    }
+
+    #header .nav-container ul > li > a {
+        justify-content: center;
+        font-size: 16px;
+    }
+    .nav-container li:hover > a::after {
+        display: none;
+    }
+
+    #header i {
+        display: block;
+        color: var(--white);
+        position: absolute;
+        font-size: 32px;
+        right: 32px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* main page */
+    #content .role-container {
+        padding: 0px;        
+    }
+
+    #content .role-btn {
+        margin: 0 12px;
+        height: 225px;
+    }
+
+    #content .slider {
+        padding-bottom: 80%;
+    }
+
+    #content .about-containter p {
+        font-size: 16px;
+    }
+    /*  *****  */
+
+    .member {
+        width: calc(100% / 3);
+    }
+
+    .container .prize-tag {
+        width: 25%;
+    }
+
+    .member-slogan div {
+        font-size: 14px;
+    }
+
+    .member-slogan p {
+        font-size: 12px;
+    }
+    .role {
+        font-size: 10px;
+    }
+
+    .nav-container ul > li {
+        line-height: 2.5;
+    }
+    
+}
+/*   *****   */
+
+/* for mobile */
+
+@media (max-width: 739px) {
+    * {
+        max-width: 100%;
+    }
+
+
+    /* main page */
+    #content .slider .history-btn {
+        font-size: 14px!important;  
+        padding: 12px 24px;
+        font-weight: 550;
+    }
+
+    body #header {
+        height: 10%;
+        position: relative;
+        padding: 8px 24px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+
+    #content .slider {
+        padding-bottom: 100%;
+        margin-top: 10%;
+    }
+
+    #header .nav-container {
+        z-index: 1000;
+        position: absolute;
+        right: 0;
+        top: calc(100% - 3px);
+        animation: activeNav ease-in-out 0.3s;
+        transition: all 0.3s;
+        display: none;
+    }
+
+    #header .nav-container ul {
+        background-color: var(--blue);
+        display: block;
+    }
+
+    #header .nav-container.active {
+        display: block;
+    }
+
+    #header .nav-container ul > li {
+        display: block;
+        padding: 0px 40px;
+    }
+
+    #header .nav-container ul > li > a {
+        justify-content: center;
+        font-size: 14px;
+    }
+    .nav-container li:hover > a::after {
+        display: none;
+    }
+
+    #header i {
+        display: block;
+        color: var(--white);
+        position: absolute;
+        font-size: 24px;
+        right: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #content .about {
+        height: 240px;
+    }
+
+    #content .about-containter p {
+        font-size: 10px;
+    }
+
+
+    #content .about-containter {
+        padding: 10px 20px;
+        height: 180px;
+    }
+
+    #content .about-containter .about-content {
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 70%;
+    }
+
+    #content .about-containter .about-logo {
+        width: 30%;
+        border-radius: 1px;
+        display: flex;
+    }
+
+    #content .about-containter .about-logo img {
+        width: 100%;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    #content .about-containter .about-btn {
+        font-size: 12px;
+        padding: 12px 24px;
+    }
+
+    #content .member-container {
+        padding: 30px 20px;
+    }
+
+    #content .member-title p {
+        font-size: 24px;
+    }
+
+    #content .members-overview {
+        height: 240px;
+    }
+
+
+    #content .member-container .member-title {
+        margin-bottom: 20px;
+    }
+
+
+
+    #content .role-btn {
+        width: 100px;
+        height: 100px;
+        margin: 0 8px;
+    }
+
+    #content .role-btn p {
+        font-size: 18px;
+    }
+    /*   ******   */
+
+
+    .title-container {
+        margin-top: 18%;
+    }
+
+    .content-container {
+        padding: 20px 36px;
+    }
+
+    .content-container ifame {
+        height: 170px;
+    }
+
+    .content-container li, .content-container span, .content-container p, .content-container p a {
+        font-size: 16px;
+    }
+
+    .content-container h2 {
+        font-size: 20px;
+    }
+
+    .content-container h1 {
+        font-size: 26px;
+    }
+
+    #footer p {
+        font-size: 16px;
+    }
+
+    .container .prize-tag {
+        width: 50%;
+    }
+
+    #content .content-container {
+        padding: 20px;
+    }
+
+    .write-up-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .writeup-tag {
+        width: 50%;
+        flex-wrap: wrap;
+        padding: 20px 20px;
+        justify-content: left;
+    }
+    .writeup-tag:hover {
+        opacity: 1;
+    }
+
+    .writeup-tag .img-container {
+        width: 100%;
+    }
+
+    .writeup-tag + .writeup-tag {
+        border-top: none;
+    }
+
+    .info-container {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .info-container .name {
+        font-size: 20px;
+        margin: 12px 0;
+    }
+
+    .info-container .description {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .info-container .data-and-time span,.date, .time {
+        font-size: 12px;
+    }
+
+    .more-btn {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+
+
+    .main-title {
+        font-size: 30px;
+    }
+
+    .title-container {
+        height: 120px;
+    }
+
+    .slider .history-btn {
+        box-shadow: 0px 6px 0px 0px var(--blue);
+    }
+
+    .slider .history-btn:hover {
+        background-color: var(--red);
+        color: white;
+        transform: translate(-50%, 6px);
+        animation: hover ease-out .3s;
+        transition: all 0.3s;
+        box-shadow: none;
+    }
+
+    body #main .about-btn {
+        box-shadow: 0px 6px 0px 0px var(--red);
+    }
+
+    body #main .about-btn:hover {
+        background-color: var(--red);
+        color: white;
+        transform: translate(0, 6px);
+        animation: hover ease-out .3s;
+        transition: all 0.3s;
+        box-shadow: none;
+    }
+
+    .content-nav {
+        flex-wrap: wrap;
+    }
+
+    .years-nav {
+        width: 100%!important;
+        margin-bottom: 20px;
+    }
+
+    .role-nav {
+        width: 100%;
+    }
+
+    .member {
+        width: 50%;
+        padding: 12px;
+    }
+
+    .members-container {
+        margin: 0;
+    }
+
+
+
+    .member-slogan {
+        margin-top: 0;
+    }
+
+    .member .name {
+        margin-bottom: 12px;
+    }
+
+    .member-slogan div {
+        margin-bottom: 4px;
+    }
+
+    .member-slogan p {
+        font-size: 10px;
+    }
+
+}
+
+/*  *******  */
