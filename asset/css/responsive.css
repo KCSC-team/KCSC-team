@@ -314,7 +314,7 @@
     }
 
     .writeup-tag {
-        width: 50%;
+        width: 100%;
         flex-wrap: wrap;
         padding: 20px 20px;
         justify-content: left;
