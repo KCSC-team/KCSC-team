@@ -6,8 +6,6 @@
     "Vi": {
       "Name": {
       "string": {},
-      "hasMany": "Member",
-      "belongsTo": "Member"
       }
     }
   }
