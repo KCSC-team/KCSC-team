@@ -4,9 +4,12 @@
       "items": 1
     },
     "Vi": {
-      "Name": {
-      "string": {},
-      }
-    }
+      "name": {
+    "string": [
+      "Thor",
+      "Loki"
+    ]
+  }
+}
   }
 }
