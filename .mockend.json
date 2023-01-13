@@ -1,6 +1,5 @@
 {
   "Members": [
-    //< CTF TEAM
     {
         name: "JohnathanHuuTri",
         ban: "CTF",
@@ -210,9 +209,6 @@
         img: "https://kcsc-club.github.io/images/members/Dat.jpg",
         link: "",
     },
-    //CTF TEAM >
-
-    //<MEDIA TEAM 
 
     
     {
@@ -283,9 +279,6 @@
         img: "https://kcsc-club.github.io/images/members/mai.jpg",
         link: "",
     },
-    //MEDIA TEAM>
-
-    //<FOMRER
 
     {
         name: "h4niz",
@@ -386,8 +379,6 @@
         img: "https://kcsc-club.github.io/images/members/img_14.jpg",
         link: "mailto:khiemgamo123@gmail.com",
 },
-
-    //FORMER>
 
 
 ]
