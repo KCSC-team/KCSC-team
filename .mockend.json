@@ -4,9 +4,11 @@
       "items": 1
     },
     "Vi": {
-      "title": { "string": {}},
+      "Name": {
+      "<string>": {Vi},
       "hasMany": "Member",
       "belongsTo": "Member"
+      }
     }
   }
 }
