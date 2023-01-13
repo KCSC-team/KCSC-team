@@ -5,7 +5,7 @@
     },
     "Vi": {
       "Name": {
-      "<string>": {Vi},
+      "<string>": {"Vi"},
       "hasMany": "Member",
       "belongsTo": "Member"
       }
