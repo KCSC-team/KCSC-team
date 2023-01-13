@@ -1,6 +1,11 @@
 {
-  "Member": {
-    "name" : {"string": {"Vi"}},
-    "age" : { "items": 20 }
+  "Post": {
+    "_": { "items": 20 },
+    "title": { "string": {} },
+    "comments": { "hasMany": "Comment" }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": { "belongsTo": "Post" }
   }
 }
