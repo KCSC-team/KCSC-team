@@ -1,6 +1,6 @@
 {
   "Member": {
-    "name" : "Vi",
-    "age" : 18
+    "name" : {"string": {"Vi"}},
+    "age" : { "items": 20 }
   }
 }
