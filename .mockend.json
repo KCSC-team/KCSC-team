@@ -3,5 +3,8 @@
     "_": {
       "items": 1
     },
-    "likes": { "string": {} } 
+    "likes": { "string": [
+      "Thor",
+      "Loki"
+    ] } 
 }
