@@ -1,12 +1,12 @@
 {
-  "ModelName": {
+  "Member": {
     "_": {
-      "items": "number"
+      "items": "1"
     },
     "fieldName": {
-      "<type>": {} | [],
-      "hasMany": "Model",
-      "belongsTo": "Model"
+      "string": "VI",
+      "hasMany": "Member",
+      "belongsTo": "Member"
     }
   }
 }
