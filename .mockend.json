@@ -3,10 +3,6 @@
     "_": {
       "items": "1"
     },
-    "fieldName": {
-      "string": "VI",
-      "hasMany": "Member",
-      "belongsTo": "Member"
-    }
+    "fieldName": {}
   }
 }
