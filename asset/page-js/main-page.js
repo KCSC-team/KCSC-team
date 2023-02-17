@@ -1,1 +1,2 @@
+localStorage.setItem('isShowMore', false);
 

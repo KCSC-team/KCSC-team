@@ -112,3 +112,9 @@ td {
 #footer {
     background-color: var(--blue);
 }
+
+
+#footer a:hover i {
+    color: white;
+    opacity: 0.5;
+}
