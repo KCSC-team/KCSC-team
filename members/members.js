@@ -259,7 +259,7 @@ export default function membersList () {
                 team: "Media",
                 role: "Content",
                 slogan: "You only live once",
-                img: "/images/members/Vi.jpg",
+                img: "/images/members/Thu.jpg",
                 link: "",
         },
 
