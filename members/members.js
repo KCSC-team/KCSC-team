@@ -270,7 +270,7 @@ export default function membersList () {
                 role: "Photographer",
                 slogan: "You learn something everyday if you pay attention",
                 img: "/images/members/Thieu.jpg",
-                link: "",
+                link: "s",
         },
 
 
