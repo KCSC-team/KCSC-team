@@ -1,0 +1,8 @@
+.content-container li, 
+    .content-container p,
+    .content-container ul, 
+    .content-container div, 
+    .content-container span,
+    .content-container i {
+        font-family: 'Montserrat';
+    }

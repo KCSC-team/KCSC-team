@@ -241,6 +241,49 @@ export default function membersList () {
                     img: "https://kcsc-club.github.io/images/members/Van.jpeg",
                     link: "https://www.facebook.com/Iamthisworldsgod/",
             },
+
+
+            {
+                year: "2023",
+                name: "KaiV",
+                team: "Media",
+                role: "photographer",
+                slogan: "Don't try to be anyone, just be yourself",
+                img: "/images/members/Vi.jpg",
+                link: "",
+        },
+
+        {
+                year: "2023",
+                name: "Thuw",
+                team: "Media",
+                role: "Content",
+                slogan: "You only live once",
+                img: "/images/members/Vi.jpg",
+                link: "",
+        },
+
+        {
+                year: "2023",
+                name: "TvT",
+                team: "Media",
+                role: "Photographer",
+                slogan: "You learn something everyday if you pay attention",
+                img: "/images/members/Thieu.jpg",
+                link: "",
+        },
+
+
+        {
+                year: "2023",
+                name: "thoconchienpanh",
+                team: "Media",
+                role: "Designer",
+                slogan: "Never pass a mirror without looking in it",
+                img: "/images/members/Duyen.jpg",
+                link: "",
+        },
+
              
              
                 //MEDIA TEAM>
