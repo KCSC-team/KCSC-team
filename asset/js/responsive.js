@@ -1,10 +1,12 @@
-window.onload = () => {
+
+    console.log (true)
     var menuBtn = document.querySelector ("#header i");
     var navContainer = document.querySelector (".nav-container");
 
     var activeNavContainer = function () {
         menuBtn.addEventListener ("click", () => {
             navContainer.classList.toggle ("active");
+            console.log (true)
         })
     }
 
@@ -15,4 +17,3 @@ window.onload = () => {
     })
 
     activeNavContainer();
-}

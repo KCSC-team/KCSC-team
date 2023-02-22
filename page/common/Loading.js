@@ -1,9 +1,9 @@
-var html = document.querySelector ('html');
-console.log (html)
+var content = document.getElementById ('content');
+console.log (content)
 
 
 
 window.onload = () => {
     console.log (true);
-    html.style.opacity = "1";
+    content.style.opacity = "1";
 }

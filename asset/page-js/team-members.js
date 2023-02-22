@@ -29,7 +29,7 @@ var renderDefault = function () {
                            <div class="member-avt">
                                 <img src="${value.img}">
                                 <div class="member-slogan">
-                                    <div>${value.name} say:</div>
+                                    <div>${value.name} says:</div>
                                     <p>${value.slogan}</p>
                                 </div>
                                 <div class="member-overlay"></div>
@@ -50,7 +50,7 @@ var renderDefault = function () {
                            <div class="member-avt">
                                 <img src="${value.img}">
                                 <div class="member-slogan">
-                                    <div>${value.name} say:</div>
+                                    <div>${value.name} says:</div>
                                     <p>${value.slogan}</p>
                                 </div>
                                 <div class="member-overlay"></div>
@@ -71,7 +71,7 @@ var renderDefault = function () {
                            <div class="member-avt">
                                 <img src="${value.img}">
                                 <div class="member-slogan">
-                                    <div>${value.name} say:</div>
+                                    <div>${value.name} says:</div>
                                     <p>${value.slogan}</p>
                                 </div>
                                 <div class="member-overlay"></div>
@@ -100,7 +100,7 @@ var renderFormer = function () {
                            <div class="member-avt">
                                 <img src="${value.img}">
                                 <div class="member-slogan">
-                                    <div>${value.name} say:</div>
+                                    <div>${value.name} says:</div>
                                     <p>${value.slogan}</p>
                                 </div>
                                 <div class="member-overlay"></div>
@@ -131,7 +131,7 @@ var renderCTF = function () {
                            <div class="member-avt">
                                 <img src="${value.img}">
                                 <div class="member-slogan">
-                                    <div>${value.name} say:</div>
+                                    <div>${value.name} says:</div>
                                     <p>${value.slogan}</p>
                                 </div>
                                 <div class="member-overlay"></div>
@@ -161,7 +161,7 @@ var renderMedia = function () {
                            <div class="member-avt">
                                 <img src="${value.img}">
                                 <div class="member-slogan">
-                                    <div>${value.name} say:</div>
+                                    <div>${value.name} says:</div>
                                     <p>${value.slogan}</p>
                                 </div>
                                 <div class="member-overlay"></div>
