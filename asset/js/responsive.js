@@ -1,8 +1,6 @@
-
-    console.log (true)
     var menuBtn = document.querySelector ("#header i");
     var navContainer = document.querySelector (".nav-container");
-
+    console.log (menuBtn)
     var activeNavContainer = function () {
         menuBtn.addEventListener ("click", () => {
             navContainer.classList.toggle ("active");
