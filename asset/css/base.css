@@ -24,8 +24,10 @@
 
 
 html {
+    opacity: 0;
     height: 100%;
     width: 100%;
+    transition: all 0.3s;
 }
 
 
@@ -34,6 +36,7 @@ body {
     width: 100%;
     -webkit-tap-highlight-color: transparent;
 }
+
 
 #main {
     height: 100%;
