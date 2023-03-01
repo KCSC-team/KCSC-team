@@ -17,9 +17,8 @@
 
 /*   ******   */
 
-/* MEMBERS CONTAINER */
 
-/* Year navigation */
+
 
 #content {
     background-color: var(--red);
@@ -35,125 +34,125 @@
 }
 
 
+/* NAVIGATION */
+
 .content-nav {
-    display: flex;
-}
-
-
-.years-nav {
-    width: 25%;
-    position: relative;
-    cursor: pointer;
-}
-
-
-
-.main-value {
-    background-color: var(--blue);
-    color: var(--white);
-    padding: 10px 20px;
-    border-radius: 20px;
-    position: relative;
-    text-align: center;
-}
-
-
-.main-value.active {
-    border-radius: 0;
-}
-
-
-.years-nav i {
-    position: absolute;
-    display: inline-block;
-    color: var(--white);
-    right: 20px;
-    top: 20px;
-    font-size: 16px;
-    transform: translateY(-50%);
-}
-
-
-.years-nav ul {
-    display: none;
-    background-color: var(--blue);
-    list-style: none;
-    border-radius: 20px;
-}
-
-.years-nav ul.active {
-    display: block;
-    position: absolute;
-    margin-top: 1px;
-    overflow: hidden;
     width: 100%;
-    z-index: 100;  
+    display: flex;
+    justify-content: space-between;
+
 }
 
 
-
-
-.years-nav ul li {
-    color: var(--white);
-    text-align: center;
-    padding: 10px 20px;
-    border-radius: 20px;
+.content-nav div {
+    height: 40px;
+    width: 40px;
 }
 
+.content-nav .status {
+    width: calc(100% - 40px);
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+}
 
-.years-nav ul li:hover {
-    background-color: var(--white);
+.status > p {
+    margin: auto;
     color: var(--blue);
 }
-/*    *******     */
 
-/* Role navigation */
-
-
-.role-nav {
-    width: 75%;
+.status:p  {
+    opacity: 0.8;
 }
 
-.role-nav ul {
-    list-style: none; 
+
+.status-selected {
+    position: relative;
+    width: 100%!important;
+    border-radius: 40px;
     display: flex;
 }
 
 
-.role-nav ul a {
-    display: inline-block;
-    width: calc(100% / 3);
-    text-align: center;
-    padding: 10px 20px;
-    background-color: var(--blue);
-    color: var(--white);
-    border-radius: 20px;
+.status-selected p {
+    margin: auto;
+}
+
+
+.status-btn {
+    display: flex;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    border: none;
     cursor: pointer;
+    height: 38px!important;
+    transform: rotate(270deg);
 }
 
-.role-nav ul a.active {
+
+.status-btn i {
+    margin: auto;
+    font-size: 20px;
+    color: var(--blue);
+}
+
+
+.status .options-container {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;    
+}
+
+
+.status .options-container div:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
+.options-container div {
+    width: 100%;
+    text-align: center;
+    color: var(--blue);
+    display: flex;
     background-color: var(--white);
-    color: var(--blue);
 }
 
-.role-nav ul li.active a {
-    color: var(--blue);
+
+
+.options-container div > p {
+    margin: auto;
+
 }
 
-.role-nav a {
-    color: var(--white);
-    text-decoration: none;
+
+.content-nav .category {
+    background-color: var(--blue);
+    border-radius: 40px;
 }
 
+
+
+/* ********* */
+
+/* MEMBERS CONTAINER */
 
 /*    ********    */
 
 .members-tag {
     width: 100%;
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
+
+
+/* main */
 .members-container {
+    min-height: 100%;
     flex-wrap: wrap;
     display: flex;
     justify-content: left;
@@ -292,3 +291,180 @@
 
 
 /*    **********    */
+
+
+
+.content-nav-container {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+
+.content-nav-container > div {
+    height: 100%;
+    background-color: var(--blue);
+    border-radius: 40px;
+    transition: 0.3s;
+}
+
+
+.content-nav-container .status-container, .members-type-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+
+
+.members-type-container {
+    display: none;
+    transition: all 0.3s;
+}
+
+
+.content-nav-container .members-type-container {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 40px;
+    background-color: var(--white);
+    width: 100%;
+    border-radius: 0px;
+
+}
+
+
+li > p {
+    font-weight: 600;
+}
+
+.members-type-container > div {
+    color: var(--blue)!important;
+}
+
+.content-nav-container .status-container > div, .members-type-container > div {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    color: var(--white);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.content-nav-container .content-nav-overlay, .members-tab-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, .4);
+    transition: all 0.3s;
+
+}
+
+.members-tab-overlay {
+    background-color: rgba(70, 2, 255, 0.4);
+    border-radius: 0px;
+    border: 4px solid white;
+}
+
+.content-nav-container .category-container {
+    width: 0%;
+    border-radius: 40px;
+    position: relative;
+}
+
+.category-container ul {
+    width: 100%;
+    transform: translateY(2px);
+    background-color: var(--blue);
+    list-style: none;
+    transition: all 0.3s;
+    border-radius: 20px;
+    display: none;
+    z-index: 100;
+    overflow: hidden;
+    position: absolute;
+}
+
+.category-container ul li:hover {
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+.category-container ul li:hover p {
+    color: var(--blue);
+}
+
+
+.category-container ul li {
+    height: 40px;
+    width: 100%;
+    color: var(--white);
+    display: flex;
+}
+
+
+
+.category-container ul li p {
+    margin: auto;
+    color: var(--white);
+    transition: all 0.3s;
+}
+
+
+.category-btn  {
+    width: 40px;
+    height: 40px;
+    right: 0;
+}
+
+.selected {
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+
+.selected {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.selected p {
+    margin: auto;
+    color: white;
+}
+
+
+.selected i {
+    color: white;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+
+.selected i::before {
+    margin: auto;
+}
+
+
+
+.show-options div {
+    color: var(--white);
+    cursor: pointer;
+}
+
+.show-options div + div {
+    margin-top: 10px;
+}
+

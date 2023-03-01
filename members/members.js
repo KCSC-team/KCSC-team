@@ -1,8 +1,148 @@
 export default function membersList () {
         return [
+
+
+                  //<FOMRER
+             
+                  {
+                        from: "2019",
+                        to: "",
+                        name: "h4niz",
+                        team: "Former",
+                        role: "CO-FOUNDER & PWNABLE",
+                        slogan: "Time will narrow every disparity.",
+                        img: "https://kcsc-club.github.io/images/members/img_09.jpg",
+                        link: "https://twitter.com/QuocAnh_NL",
+                },
+                 
+                 
+                 
+                {
+                        from: "2019",
+                        to: "",
+                        name: "vinhjaxt",
+                        team: "Former",
+                        role: "CO-FOUNDER & WEB EXPLOIT",
+                        slogan: "Quá đáng, hứ 🙄🤧",
+                        img: "https://kcsc-club.github.io/images/members/img_20.jpg",
+                        link: "mailto:ngoc.lo.dang@gmail.com",
+                },
+                 
+                 
+                 
+                {
+                        from: "2019",
+                        to: "",
+                        name: "tuedenn",
+                        team: "Former",
+                        role: "CO-FOUNDER & REVERSE",
+                        slogan: "You can change what you do, but you can’t change what you want.",
+                        img: "https://kcsc-club.github.io/images/members/img_05.jpg",
+                        link: "https://twitter.com/tuedenn",
+                },
+                 
+                 
+                 
+                {
+                        from: "2019",
+                        to: "",
+                        name: "Dang Khai",
+                        team: "Former",
+                        role: "CO-FOUNDER & FORENSIC",
+                        slogan: "The success and results you get will be proportional to your sweat and efforts.",
+                        img: "https://kcsc-club.github.io/images/members/img_01.jpg",
+                        link: "https://twitter.com/h3ll38",
+                },
+                 
+                 
+                {
+                        from: "2020",
+                        to: "",
+                        name: "Lu",
+                        team: "Former",
+                        role: "LEADER MEDIA",
+                        slogan: "Còn thở là còn sống ^-^",
+                        img: "https://kcsc-club.github.io/images/members/img_13.jpg",
+                        link: "mailto:trangluna81@gmail.com",
+                },
+                 
+                 
+                {
+                        from: "2020",
+                        to: "",
+                        name: "Sup4Ch0k3",
+                        team: "Former",
+                        role: "WEB EXPLOIT",
+                        slogan: "Where failed double that place.",
+                        img: "https://kcsc-club.github.io/images/members/img_10.jpg",
+                        link: "mailto:trungthiennguyenn@gmail.com",
+                },
+                 
+                {
+                        from: "2020",
+                        to: "",
+                        name: "akai",
+                        team: "Former",
+                        role: "REVERSE",
+                        slogan: "Luật nhân quả là khi mình cho đi điều gì thì mất luôn thứ đó :shame:.",
+                        img: "https://kcsc-club.github.io/images/members/img_21.jpg",
+                        link: "mailto:xcotang@gmail.com",
+                },
+                 
+                {
+                        from: "2020",
+                        to: "",
+                        name: "nhienit",
+                        team: "Former",
+                        role: "Web exploit",
+                        slogan: "Always remember that you are absolutely unique. Just like everyone else.",
+                        img: "https://kcsc-club.github.io/images/members/img_12.jpg",
+                        link: "https://twitter.com/__nhienit__",
+                    },
+                 
+                 
+                {
+                        from: "2020",
+                        to: "",
+                        name: "Me0x2",
+                        team: "Former",
+                        role: "MEDIA",
+                        slogan: "Có công mài sắt có ngày mai mọi chuyện sẽ tốt hoi",
+                        img: "https://kcsc-club.github.io/images/members/img_18.jpg",
+                        link: "mailto:huynhlananh2505@gmail.com",
+                },
+                 
+                 
+                {
+                        from: "2021",
+                        to: "",
+                        name: "XuanTrinh",
+                        team: "Former",
+                        role: "CONTENT CREATOR",
+                        slogan: "Life is short. Smile while you still have teeth.",
+                        img: "https://kcsc-club.github.io/images/members/img_17.jpg",
+                        link: "mailto:trinhxuan332001@gmail.com",
+                },
+                 
+                 
+                {
+                        from: "2021",
+                        to: "",
+                        name: "TuilaChim",
+                        team: "Former",
+                        role: "DESIGNER",
+                        slogan: "Ching chong tree nah NhienIT",
+                        img: "https://kcsc-club.github.io/images/members/img_14.jpg",
+                        link: "http://instagram.com/l3sor.X",
+                },
+                 
+                    //FORMER>
+
+                    
                 //< CTF TEAM
                 {
-                    year: "2020",
+                    from: "2020",
+                    to: "2022",
                     name: "tuna99",
                     team: "CTF",
                     role: "MANAGER & REVERSE",
@@ -14,7 +154,8 @@ export default function membersList () {
              
              
             {
-                    year: "2020",
+                    from: "2020",
+                    to: "now",
                     name: "Diggory",
                     team: "CTF",
                     role: "MANAGER & CRYPTO",
@@ -26,7 +167,8 @@ export default function membersList () {
              
              
             {
-                    year: "2020",
+                    from: "2020",
+                    to: "",
                     name: "VanThong",
                     team: "CTF",
                     role: "REVERSE & WEB EXPLOIT",
@@ -37,7 +179,8 @@ export default function membersList () {
              
              
             {
-                    year: "2020",
+                    from: "2020",
+                    to: "",
                     name: "Cl0wnK1n9",
                     team: "CTF",
                     role: "WEB EXPLOIT & PWNABLE",
@@ -48,7 +191,8 @@ export default function membersList () {
              
              
             {
-                    year: "2020",
+                    from: "2020",
+                    to: "",
                     name: "n0bit4lsm3",
                     team: "CTF",
                     role: "REVERSE",
@@ -60,7 +204,8 @@ export default function membersList () {
              
              
             {
-                    year: "2020",
+                    from: "2020",
+                    to: "",
                     name: "MaiLong",
                     team: "CTF",
                     role: "REVERSE & PWNABLE",
@@ -71,7 +216,8 @@ export default function membersList () {
              
              
             {
-                    year: "2020",
+                    from: "2020",
+                    to: "2020",
                     name: "DSmile",
                     team: "CTF",
                     role: "WEB EXPLOIT",
@@ -82,7 +228,8 @@ export default function membersList () {
              
              
             {
-                    year: "2020",
+                    from: "2020",
+                    to: "",
                     name: "XCoTang",
                     team: "CTF",
                     role: "WEB EXPLOIT",
@@ -93,7 +240,8 @@ export default function membersList () {
              
              
             {
-                    year: "2020",
+                    from: "2020",
+                    to: "",
                     name: "hoangpt",
                     team: "CTF",
                     role: "REVERSE",
@@ -104,7 +252,8 @@ export default function membersList () {
              
              
             {
-                    year: "2021",
+                    from: "2021",
+                    to: "now",
                     name: "d47",
                     team: "CTF",
                     role: "Web exploit",
@@ -116,7 +265,8 @@ export default function membersList () {
              
              
             {
-                    year: "2021",
+                    from: "2021",
+                    to: "now",
                     name: "kudo104",
                     team: "CTF",
                     role: "Reverse",
@@ -127,7 +277,8 @@ export default function membersList () {
              
              
             {
-                    year: "2022",
+                    from: "2022",
+                    to: "now",
                     name: "zev",
                     team: "CTF",
                     role: "Web exploit",
@@ -139,7 +290,8 @@ export default function membersList () {
              
              
             {
-                    year: "2021",
+                    from: "2021",
+                    to: "now",
                     name: "vanirxxx",
                     team: "CTF",
                     role: "web exploit",
@@ -151,7 +303,8 @@ export default function membersList () {
              
              
             {
-                    year: "2022",
+                    from: "2022",
+                    to: "2023",
                     name: "archivist",
                     team: "CTF",
                     role: "Reverse",
@@ -161,7 +314,8 @@ export default function membersList () {
             },
              
             {
-                    year: "2022",
+                    from: "2022",
+                    to: "now",
                     name: "JohnathanHuuTri",
                     team: "CTF",
                     role: "pwnable",
@@ -173,7 +327,8 @@ export default function membersList () {
              
              
             {
-                    year: "2022",
+                    from: "2022",
+                    to: "now",
                     name: "longkd719",
                     team: "CTF",
                     role: "Crypto",
@@ -188,7 +343,8 @@ export default function membersList () {
              
                
             {
-                    year: "2020",
+                    from: "2020",
+                    to: "2022",
                     name: "Huyen",
                     team: "Media",
                     role: "LEADER MEDIA",
@@ -199,7 +355,8 @@ export default function membersList () {
              
              
             {
-                    year: "2020",
+                    from: "2020",
+                    to: "now",
                     name: "cheese00",
                     team: "Media",
                     role: "CONTENT CREATOR",
@@ -211,7 +368,8 @@ export default function membersList () {
              
              
             {
-                    year: "2021",
+                    from: "2021",
+                    to: "now",
                     name: "cHinn",
                     team: "Media",
                     role: "content CREATOR",
@@ -222,7 +380,8 @@ export default function membersList () {
              
              
             {
-                    year: "2021",
+                    from: "2021",
+                    to: "now",
                     name: "Phuong",
                     team: "Media",
                     role: "CONTENT CREATOR",
@@ -233,7 +392,8 @@ export default function membersList () {
              
              
             {
-                    year: "2022",
+                    from: "2022",
+                    to: "now",
                     name: "Adorabbit",
                     team: "Media",
                     role: "designer",
@@ -244,7 +404,8 @@ export default function membersList () {
 
 
             {
-                year: "2023",
+                from: "2023",
+                to: "now",
                 name: "KaiV",
                 team: "Media",
                 role: "photographer",
@@ -254,7 +415,8 @@ export default function membersList () {
         },
 
         {
-                year: "2023",
+                from: "2023",
+                to: "now",
                 name: "Thuw",
                 team: "Media",
                 role: "Content CREATOR",
@@ -264,7 +426,8 @@ export default function membersList () {
         },
 
         {
-                year: "2023",
+                from: "2023",
+                to: "now",
                 name: "TvT",
                 team: "Media",
                 role: "Photographer",
@@ -275,7 +438,8 @@ export default function membersList () {
 
 
         {
-                year: "2023",
+                from: "2023",
+                to: "now",
                 name: "thoconchienpanh",
                 team: "Media",
                 role: "Designer",
@@ -287,137 +451,9 @@ export default function membersList () {
              
              
                 //MEDIA TEAM>
-             
-                //<FOMRER
-             
-                {
-                    year: "2019",
-                    name: "h4niz",
-                    team: "Former",
-                    role: "CO-FOUNDER & PWNABLE",
-                    slogan: "Time will narrow every disparity.",
-                    img: "https://kcsc-club.github.io/images/members/img_09.jpg",
-                    link: "https://twitter.com/QuocAnh_NL",
-            },
-             
-             
-             
-            {
-                    year: "2019",
-                    name: "vinhjaxt",
-                    team: "Former",
-                    role: "CO-FOUNDER & WEB EXPLOIT",
-                    slogan: "Quá đáng, hứ 🙄🤧",
-                    img: "https://kcsc-club.github.io/images/members/img_20.jpg",
-                    link: "mailto:ngoc.lo.dang@gmail.com",
-            },
-             
-             
-             
-            {
-                    year: "2019",
-                    name: "tuedenn",
-                    team: "Former",
-                    role: "CO-FOUNDER & REVERSE",
-                    slogan: "You can change what you do, but you can’t change what you want.",
-                    img: "https://kcsc-club.github.io/images/members/img_05.jpg",
-                    link: "https://twitter.com/tuedenn",
-            },
-             
-             
-             
-            {
-                    year: "2019",
-                    name: "Dang Khai",
-                    team: "Former",
-                    role: "CO-FOUNDER & FORENSIC",
-                    slogan: "The success and results you get will be proportional to your sweat and efforts.",
-                    img: "https://kcsc-club.github.io/images/members/img_01.jpg",
-                    link: "https://twitter.com/h3ll38",
-            },
-             
-             
-            {
-                    year: "2020",
-                    name: "Lu",
-                    team: "Former",
-                    role: "LEADER MEDIA",
-                    slogan: "Còn thở là còn sống ^-^",
-                    img: "https://kcsc-club.github.io/images/members/img_13.jpg",
-                    link: "mailto:trangluna81@gmail.com",
-            },
-             
-             
-            {
-                    year: "2020",
-                    name: "Sup4Ch0k3",
-                    team: "Former",
-                    role: "WEB EXPLOIT",
-                    slogan: "Where failed double that place.",
-                    img: "https://kcsc-club.github.io/images/members/img_10.jpg",
-                    link: "mailto:trungthiennguyenn@gmail.com",
-            },
-             
-            {
-                    year: "2020",
-                    name: "akai",
-                    team: "Former",
-                    role: "REVERSE",
-                    slogan: "Luật nhân quả là khi mình cho đi điều gì thì mất luôn thứ đó :shame:.",
-                    img: "https://kcsc-club.github.io/images/members/img_21.jpg",
-                    link: "mailto:xcotang@gmail.com",
-            },
-             
-            {
-                    year: "2020",
-                    name: "nhienit",
-                    team: "Former",
-                    role: "Web exploit",
-                    slogan: "Always remember that you are absolutely unique. Just like everyone else.",
-                    img: "https://kcsc-club.github.io/images/members/img_12.jpg",
-                    link: "https://twitter.com/__nhienit__",
-                },
-             
-             
-            {
-                    year: "2020",
-                    name: "Me0x2",
-                    team: "Former",
-                    role: "MEDIA",
-                    slogan: "Có công mài sắt có ngày mai mọi chuyện sẽ tốt hoi",
-                    img: "https://kcsc-club.github.io/images/members/img_18.jpg",
-                    link: "mailto:huynhlananh2505@gmail.com",
-            },
-             
-             
-            {
-                    year: "2021",
-                    name: "XuanTrinh",
-                    team: "Former",
-                    role: "CONTENT CREATOR",
-                    slogan: "Life is short. Smile while you still have teeth.",
-                    img: "https://kcsc-club.github.io/images/members/img_17.jpg",
-                    link: "mailto:trinhxuan332001@gmail.com",
-            },
-             
-             
-            {
-                    year: "2021",
-                    name: "TuilaChim",
-                    team: "Former",
-                    role: "DESIGNER",
-                    slogan: "Ching chong tree nah NhienIT",
-                    img: "https://kcsc-club.github.io/images/members/img_14.jpg",
-                    link: "http://instagram.com/l3sor.X",
-            },
-             
-                //FORMER>
-            
+        
+                
             ]
-            
-            
-            
-            
             
             // **************
 }

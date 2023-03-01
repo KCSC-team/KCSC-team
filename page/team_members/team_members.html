@@ -24,54 +24,40 @@
                 </h1>
             </div>
             <div class="content-container">
-                <div class="content-nav">
-                    <div class="years-nav">
-                        <div class="main-value">
-                            2019
-                        </div>
-                        <i class="fa-solid fa-caret-down"></i>
-                        <div class="year-selector">
-                            
-                            <ul>
-                                <li>2019</li>
-                                <li>2020</li>
-                                <li>2021</li>
-                                <li>2022</li>
-                                <li>2023</li>
-                            </ul>
-                        </div>                            
+                <div class="content-nav-container">
+                    <div class="status-container">
+                        <div class="all-btn">ALL</div>
+                        <div class="active-btn">CURRENT</div>
+                        <div class="content-nav-overlay"></div>
                     </div>
-                    <div class="role-nav">
+                    <div class="members-type-container">
+                        <div class="ctfer-tab active">CTFER</div>
+                        <div class="media-tab">MEDIA</div>
+                        <div class="members-tab-overlay"></div>
+                    </div>
+                    <div class="category-container">
+                        <li class="selected"><p>YEARS</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                        </li>
                         <ul>
-                            <a class="active" href="#"><li>Former</li></a>
-                            <a href="#"><li>Ctfer</li></a>
-                            <a href="#"><li>Media</li></a>
+                        <li><p>2019</p></li>
+                        <li><p>2020</p></li>
+                        <li><p>2021</p></li>
+                        <li><p>2022</p></li>
+                        <li><p>2023</p></li>
                         </ul>
                     </div>
                 </div>
                 <div class="members-tag">
-                    <div class="members-container" id="Former">
-                        <div class="member">
-                           <div class="member-avt">
-                                <img src="${value.img}">
-                                <div class="member-slogan">
-                                    <div>${value.name} say:</div>
-                                    <p>${value.slogan}</p>
-                                </div>
-                                <div class="member-overlay"></div>
-                           </div>
-                            <div class="menber-info">
-                                <div class="name">${value.name}</div>
-                                <div class="role">${value.role}</div>
-                            </div>
-                       </div>
-                    </div>
-                    <div class="members-container" id="Media">
-                    </div>
-                    <div class="members-container" id="Ctfer">
+                    <div class="members-container-all">
+                        <div class="members-container"></div>
+                        <div class="show-options">
+                            <div class="see-more">See more...</div>
+                            <div class="see-all">See all</div>
+                        </div>
                     </div>
                 </div>
-    </div>
+        </div>
         </div>
     <div id="footer">
     </div>

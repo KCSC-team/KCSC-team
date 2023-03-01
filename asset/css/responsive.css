@@ -145,6 +145,14 @@
         font-weight: 550;
     }
 
+    .category-container i {
+        display: none;
+    }
+
+    .selected {
+        display: none;
+    }
+
     body #header {
         height: 10%;
         position: relative;
