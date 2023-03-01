@@ -125,16 +125,7 @@ export default function membersList () {
                 },
                  
                  
-                {
-                        from: "2021",
-                        to: "",
-                        name: "TuilaChim",
-                        team: "Former",
-                        role: "DESIGNER",
-                        slogan: "Ching chong tree nah NhienIT",
-                        img: "https://kcsc-club.github.io/images/members/img_14.jpg",
-                        link: "http://instagram.com/l3sor.X",
-                },
+                
                  
                     //FORMER>
 
@@ -365,7 +356,17 @@ export default function membersList () {
                     link: "mailto:cheese3105@gmail.com",
             },
              
-             
+
+            {
+                from: "2021",
+                to: "now",
+                name: "TuilaChim",
+                team: "Media",
+                role: "DESIGNER",
+                slogan: "Ching chong tree nah NhienIT",
+                img: "https://kcsc-club.github.io/images/members/img_14.jpg",
+                link: "http://instagram.com/l3sor.X",
+        },
              
             {
                     from: "2021",
