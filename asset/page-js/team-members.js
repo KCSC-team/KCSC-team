@@ -53,7 +53,8 @@ function renderCurrentMembers (years, team, limit) {
     var defaultLimit = 8;
     console.log (categoryOptions);
     members.forEach (member => {
-        var end = Number.isInteger(parseInt(end)) ? parseInt(end) : new Date().getFullYear();
+        var end = (member.to != 'now') ? parseInt (member.to) : (new Date().getFullYear())
+        console.log (end)
         if (member.team === team && parseInt (member.from) <= parseInt (years) && (end) >= parseInt (years)) {
             html.push (member)
         }
@@ -214,9 +215,10 @@ Array.from (roleTabOptions).forEach (option => {
 
 statusList.forEach(option => {
     option.onclick = (e) => {
+        var defaultLimit = 8;
         if (option.innerHTML === 'ALL')
         {   
-            renderLimit (members ,8)
+            renderLimit (members ,defaultLimit)
             seeMore.style.display = 'block'
             seeAll.style.display = 'block'
             seeMore.onclick = () => {
