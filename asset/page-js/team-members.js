@@ -18,7 +18,38 @@ var roleTabOptions = document.querySelectorAll (".members-type-container > div")
 var roleTab = document.querySelector ('.members-type-container');
 var seeMore = document.querySelector ('.see-more')
 var seeAll = document.querySelector ('.see-all')
+var memberTag = document.querySelector ('.members-tag')
+// var percentLine = document.querySelector ('.inner-line')
+// var loadingScreen = document.querySelector ('.loading-screen')
+// console.log (loadingScreen)
+// var percent = 10;
+// const percentLoading = setInterval(() => {
+//     percentLine.style.width = `${percent++}%`
+//     if (percent === 90) {
+//         console.log (true)
+//         clearInterval (percentLoading)
+//     }
+// }, 1000);
+
+//     percentLine.onchange = () => {
+//         if (percent === 90) {
+//             clearInterval (percentLoading)
+//         }
+//     }
+
+window.onload = () => {
+    memberTag.style.opacity = '1';
+    // console.log ("100%")
+    // percentLine.style.width = `100%`
+    // clearInterval(percentLoading);   
+    // setTimeout (() => {
+    //     loadingScreen.style.display = 'none'
+    // }, 500)
+}
+
 console.log (roleTab)
+
+
 
 var renderLimit = (members, limit) => {
     
@@ -43,9 +74,11 @@ var renderLimit = (members, limit) => {
         } 
     }
 
-        allMemberContainer.innerHTML = html.join('');
-    
+
+        allMemberContainer.innerHTML = html.join('')
 }
+
+renderLimit (members, members.length);
 
 
 function renderCurrentMembers (years, team, limit) {

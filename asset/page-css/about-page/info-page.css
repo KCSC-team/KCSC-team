@@ -90,3 +90,51 @@ li {
     width: 100%;
 }
 /*  ****  */
+
+
+
+.htr-slider {
+    margin-top: 40px;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+
+.htr-slider-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.htr-slider-container .page {
+    min-width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+
+.page::-webkit-scrollbar {
+    transform: translateX(20px);
+    width: 4px;
+  }
+  
+  /* Track */
+  .page::-webkit-scrollbar-track {
+    background: var(--white);
+    border-radius: 8px;
+  }
+  
+  /* Handle */
+  .page::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: var(--blue);
+  }
+  
+  /* Handle on hover */
+  .page::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+

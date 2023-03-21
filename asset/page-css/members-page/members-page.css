@@ -146,8 +146,49 @@
 .members-tag {
     width: 100%;
     padding-top: 80px;
+    opacity: 0;
 }
 
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 10000; 
+    display: flex;
+}
+
+
+.loading-screen .loading-bar {
+    border-radius: 20px;
+    margin: auto;
+    width: 70%;
+    height: 30%;
+    z-index: 90000;
+    background-color: white;
+    display: flex;
+}
+
+
+.loading-line {
+    margin: auto;
+    width: 80%;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.inner-line {
+    height: 100%;
+    width: 0%;
+    transition: all 0.3s;
+    background-color: red;
+    border-radius: 10px;
+}
 
 
 /* main */
