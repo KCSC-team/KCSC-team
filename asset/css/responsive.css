@@ -108,9 +108,7 @@
         width: calc(100% / 3);
     }
 
-    .container .prize-tag {
-        width: 25%;
-    }
+    
 
     .member-slogan div {
         font-size: 14px;
@@ -127,16 +125,16 @@
         line-height: 2.5;
     }
     
+
+    .prize-item {
+        width: calc(100% / 3);
+    }
 }
 /*   *****   */
 
 /* for mobile */
 
 @media (max-width: 739px) {
-    * {
-        max-width: 100%;
-    }
-
 
     /* main page */
     #content .slider .history-btn {
@@ -309,7 +307,7 @@
     }
 
     .container .prize-tag {
-        width: 50%;
+        width: 100%;
     }
 
     #content .content-container {
@@ -437,6 +435,80 @@
 
     .member-slogan p {
         font-size: 10px;
+    }
+
+
+    .prize-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 100%;
+    }
+    
+    
+    .prize-item {
+        width: calc(100% / 2);
+        padding: 12px;
+    }
+    
+    
+    .prize-item img {
+        width: 100%;
+    }
+    
+    .page {
+        padding: 20px!important;
+    }
+
+
+    #main .page-container {
+        width: 400%;
+    }
+
+    #main .prev-btn, #main .next-btn {
+        padding: 20px;
+    } 
+    
+    #main .prev-btn {
+        left: -10px;
+    }
+    
+    
+    #main .prev-btn:hover {
+        left: -30px;
+    }
+    
+    #main .next-btn:hover {
+        right: -30px;
+    }
+    
+    #main .next-btn {
+        right: -10px;
+    }
+
+    #main .page .title h1 {
+        font-size: 5rem;
+        font-weight: 1000;
+        color: var(--red);
+        line-height: 1;
+        filter: drop-shadow(4px 4px 10px #ccc);
+    }
+    
+
+    #main .page h2 {
+        font-size: 20px;
+    }
+
+    #main .page .title p {
+        margin: 10px;
+        text-align: center;
+        color: var(--blue);
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    #main .info {
+        width: 200px;
     }
 
 }
