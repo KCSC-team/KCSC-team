@@ -475,11 +475,11 @@
     
     
     #main .prev-btn:hover {
-        left: -30px;
+        left: -20px;
     }
     
     #main .next-btn:hover {
-        right: -30px;
+        right: -20px;
     }
     
     #main .next-btn {
@@ -508,7 +508,7 @@
     }
 
     #main .info {
-        width: 200px;
+        width: 180px;
     }
 
 }
