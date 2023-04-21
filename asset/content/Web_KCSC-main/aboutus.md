@@ -1,4 +1,3 @@
-
 Là câu lạc bộ trực thuộc Học viện Kỹ thuật Mật mã, được thành lập ngày 08/08/2019.
 
 Với mục tiêu **_`"Make KMA greater"`_**, CLB là nơi định hướng và giúp đỡ các bạn sinh viên có niềm đam mê, yêu thích với An toàn thông tin.

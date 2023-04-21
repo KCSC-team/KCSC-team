@@ -4,6 +4,7 @@
     height: 140px;
     display: flex;
     background-color: var(--blue);
+    line-height: 1.5;
 }
 
 
@@ -23,12 +24,12 @@
 }
 
 h1, span, p, li, a, h2, h3 {
-    color: var(--white);
+    color: var(--red);
     line-height: 1.5;
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
 }
 
@@ -36,14 +37,14 @@ a {
     font-weight: 700;
     text-decoration: none;
     font-style: italic;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 p.italic {
     display: inline-block;
     font-style: italic;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
 }
 
@@ -63,7 +64,7 @@ ul {
 
 
 li {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
