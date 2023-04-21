@@ -39,21 +39,6 @@
     color: black!important;
 }
 
-.container code {
-    background-color: #ccc;
-    font-size: 14px;
-    color: rgba(10, 10, 10, 0.8);
-    overflow-x: scroll;
-    display: inline-block;
-}
-
-.container p code {
-    color: var(--red);
-}
-
-.container li code {
-    color: var(--red);
-}
 
 
 .container pre {

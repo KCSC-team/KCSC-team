@@ -58,18 +58,7 @@
 }
 
 
-.container code {
-    background-color: #ccc;
-    color: rgba(10, 10, 10, 0.8);
-}
 
-.container p code {
-    color: var(--red);
-}
-
-.container li code {
-    color: var(--red);
-}
 
 
 .container pre {
