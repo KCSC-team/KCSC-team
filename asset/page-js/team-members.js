@@ -25,12 +25,20 @@ const App = {
     year: 1,
     role: "",
   },
-  categoryShow() {
-    let formData = {
-      ...JSON.parse(localStorage.getItem("filters")),
-      role: "CTF",
-    };
-    localStorage.setItem("filters", JSON.stringify(formData));
+  categoryShow(info) {
+    if (info) {
+      let formData = {
+        ...JSON.parse(localStorage.getItem("filters")),
+        role: info,
+      };
+      localStorage.setItem("filters", JSON.stringify(formData));
+    } else {
+      let formData = {
+        ...JSON.parse(localStorage.getItem("filters")),
+        role: "CTFER",
+      };
+      localStorage.setItem("filters", JSON.stringify(formData));
+    }
 
     memberTeam.style.display = "flex";
     memberTeam.style.width = "77%";
@@ -191,7 +199,7 @@ const App = {
   CustomRender() {
     const { type, year, role } = JSON.parse(localStorage.getItem("filters"));
     console.log({ type, year, role });
-    if (role === "CTF") {
+    if (role === "CTFER") {
       memberContainer.innerHTML = this.renderCTF(year).join("");
     } else if (role === "MEDIA") {
       memberContainer.innerHTML = this.renderMedia(year).join("");
@@ -258,12 +266,12 @@ const App = {
       this.slideRight(statusBarOverlay);
       if (role === "MEDIA") {
         this.categoryActive();
-        this.categoryShow();
+        this.categoryShow(role);
         this.slideRight(membersTeamOverlay);
         memberContainer.innerHTML = App.renderMedia(1).join("");
       } else if (role === "CTFER") {
         this.categoryActive();
-        this.categoryShow();
+        this.categoryShow(role);
         this.slideLeft(membersTeamOverlay);
         memberContainer.innerHTML = App.renderCTF(1).join("");
       }
