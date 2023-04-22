@@ -146,7 +146,7 @@
 .members-tag {
     width: 100%;
     padding-top: 80px;
-    opacity: 0;
+    opacity: 1;
 }
 
 
@@ -224,8 +224,8 @@
 
 .member:hover .member-overlay {
     display: block;
-    animation: overlayHover 0.3s ease-in-out;
-    transition: all 0.8s;
+    animation: overlayHover 0.2s ease-in-out;
+    transition: all 0.2s;
 }
 
 
@@ -380,6 +380,7 @@
 
 
 .content-nav-container .members-type-container {
+    z-index: 100;
     position: absolute;
     top: 50px;
     left: 0;
@@ -417,7 +418,7 @@ li > p {
     bottom: 0;
     border-radius: 40px;
     background-color: rgba(255, 255, 255, .4);
-    transition: all 0.8s;
+    transition: all 0.4s;
 
 }
 
@@ -431,6 +432,7 @@ li > p {
     width: 0%;
     border-radius: 40px;
     position: relative;
+    overflow: hidden;
 }
 
 .category-container ul {
@@ -440,10 +442,10 @@ li > p {
     list-style: none;
     transition: all 0.8s;
     border-radius: 20px;
-    display: none;
-    z-index: 100;
+    z-index: 10000;
     overflow: hidden;
     position: absolute;
+    top: 100%;
 }
 
 .category-container ul li:hover {
@@ -489,7 +491,7 @@ li > p {
     display: flex;
     width: 100%;
     height: 100%;
-    opacity: 0;
+    opacity: 1;
 }
 
 .selected p {
@@ -505,8 +507,7 @@ li > p {
     height: 40px;
     position: absolute;
     right: 0;
-    opacity: 0;
-    transition: all 0.8s;
+    transition: all 0.4s;
 }
 
 
