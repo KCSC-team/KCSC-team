@@ -41,19 +41,19 @@ rendering();
 
 window.onload = () => {
   const prizeItem = document.querySelectorAll(".prize-item");
-  const handleHover = (e, value) => {
+  const handleHover = (e, value, opacity) => {
     const info = e.querySelector(".prize-item .info");
     const overlay = e.querySelector(".acm-overlay");
     info.style.top = value;
-    info.style.opacity = "1";
+    info.style.opacity = opacity;
     overlay.style.top = value;
   };
   prizeItem.forEach((item) => {
     item.onmouseover = () => {
-      handleHover(item, "0");
+      handleHover(item, "0","1");
     };
     item.onmouseout = () => {
-      handleHover(item, "-100%");
+      handleHover(item, "-100%", "0");
     };
   });
 };
