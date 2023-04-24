@@ -129,6 +129,15 @@
     .prize-item {
         width: calc(100% / 3);
     }
+
+
+    .prize-item .info h3 {
+        font-size: 13px;
+    }
+
+    .prize-item .info p {
+        font-size: 10px;
+    }
 }
 /*   *****   */
 
@@ -491,7 +500,6 @@
         filter: drop-shadow(4px 4px 10px #ccc);
     }
     
-
     #main .page h2 {
         font-size: 20px;
     }
@@ -504,8 +512,12 @@
         font-weight: 500;
     }
 
-    #main .info {
-        width: 180px;
+    #main .info h3 {
+        font-size: 13px;
+    }
+
+    #main .prize-item .content {
+        font-size: 12px;
     }
 
 }
