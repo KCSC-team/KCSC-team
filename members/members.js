@@ -487,7 +487,7 @@ export default function membersList() {
       "role": "PWNABLE",
       "slogan": "Always do things that are harder than your current level",
       "img": "https://KCSC-team.github.io/images/members/Khanh_AT18.JPG",
-      "link": "https://www.facebook.com/dk10ne/"
+      "link": "https://www.facebook.com/dk10ne/ ", 
     },
     {
       "from": "2023",
