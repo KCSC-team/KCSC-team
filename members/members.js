@@ -228,7 +228,7 @@ export default function membersList() {
       "team": "CTF",
       "role": "WEB EXPLOIT",
       "slogan": "life is not dattebayo anymore",
-      "img": "https://KCSC-team.github.io/images/members/",
+      "img": "https://KCSC-team.github.io/images/members/img_21.jpg",
       "link": "https://twitter.com/vtgsxx"
     },
 {
@@ -336,7 +336,7 @@ export default function membersList() {
       "team": "CTF",
       "role": "CRYPTO",
       "slogan": "",
-      "img": "https://KCSC-team.github.io/images/members/",
+      "img": "https://KCSC-team.github.io/images/members/img_21.jpg",
       "link": "https://www.facebook.com/destiq63/"
     },
     {
@@ -346,7 +346,7 @@ export default function membersList() {
       "team": "CTF",
       "role": "FORENSIC",
       "slogan": "Nỗ lực hết mình vì sự an toàn của bạn - arigatou gozaimasu",
-      "img": "https://KCSC-team.github.io/images/members/",
+      "img": "https://KCSC-team.github.io/images/members/img_21.jpg",
       "link": "https://www.facebook.com/chunganh.doan"
     },
     {
@@ -426,7 +426,7 @@ export default function membersList() {
       "team": "CTF",
       "role": "CRYPTO",
       "slogan": "",
-      "img": "",
+      "img": "https://KCSC-team.github.io/images/members/img_21.jpg",
       "link": "https://www.facebook.com/minhphuc.1710"
     },
     {
@@ -436,7 +436,7 @@ export default function membersList() {
       "team": "CTF",
       "role": "FORENSIC",
       "slogan": "",
-      "img": "",
+      "img": "https://KCSC-team.github.io/images/members/img_21.jpg",
       "link": "https://www.facebook.com/buihuy.thang2511"
     },
     {
@@ -476,7 +476,7 @@ export default function membersList() {
       "team": "CTF",
       "role": "PWNABLE",
       "slogan": "",
-      "img": "https://KCSC-team.github.io/images/members/",
+      "img": "https://KCSC-team.github.io/images/members/img_21.jpg",
       "link": "https://www.facebook.com/quang.phu.1848816"
     },
     {
@@ -609,7 +609,7 @@ export default function membersList() {
       "team": "CTF",
       "role": "REVERSE",
       "slogan": "",
-      "img": "https://KCSC-team.github.io/images/members/",
+      "img": "https://KCSC-team.github.io/images/members/img_21.jpg",
       "link": "https://www.facebook.com/profile.php?id=100013483801014"
     },
     {
@@ -619,7 +619,7 @@ export default function membersList() {
       "team": "CTF",
       "role": "FORENSIC",
       "slogan": "Kill the mind, build the mind, free the mind",
-      "img": "https://KCSC-team.github.io/images/members/",
+      "img": "https://KCSC-team.github.io/images/members/img_21.jpg",
       "link": "https://www.facebook.com/kawaragisenju222"
     },
     
@@ -660,7 +660,7 @@ export default function membersList() {
       "team": "CTF",
       "role": "WEB EXPLOIT",
       "slogan": "Vừa uống rượu, vừa hút thuốc, vừa đánh bài lại có cả vợ bé: Trương Học Lương thọ 103 tuổi.",
-      "img": "https://KCSC-team.github.io/images/members/",
+      "img": "https://KCSC-team.github.io/images/members/img_21.jpg",
       "link": "https://twitter.com/qquang01"
     },
     {
@@ -670,7 +670,7 @@ export default function membersList() {
       "team": "CTF",
       "role": "WEB EXPLOIT",
       "slogan": "looking for one :(",
-      "img": "https://KCSC-team.github.io/images/members/",
+      "img": "https://KCSC-team.github.io/images/members/img_21.jpg",
       "link": "https://twitter.com/devme4f"
     },
     {
@@ -700,7 +700,7 @@ export default function membersList() {
       "team": "CTF",
       "role": "WEB EXPLOIT",
       "slogan": "Run or die",
-      "img": "https://KCSC-team.github.io/images/members/",
+      "img": "https://KCSC-team.github.io/images/members/img_21.jpg",
       "link": "https://www.facebook.com/doquocanh2001"
     },
     {
@@ -835,7 +835,7 @@ export default function membersList() {
       "team": "Media",
       "role": "CONTENT CREATOR",
       "slogan": "Mình tự do do tự mình",
-      "img": "https://KCSC-team.github.io/images/members/",
+      "img": "https://KCSC-team.github.io/images/members/img_21.jpg",
       "link": "https://www.facebook.com/d7uan4nh/"
     },
     {
