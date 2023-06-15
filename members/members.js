@@ -786,17 +786,6 @@ export default function membersList() {
     },
 
     {
-      "from": "2021",
-      "to": "now",
-      "name": "Phuong",
-      "team": "Media",
-      "role": "CONTENT CREATOR",
-      "slogan": "Always smile.",
-      "img": "https://KCSC-team.github.io/images/members/img_15.jpg",
-      "link": "mailto:nguyenthiphuong.251202@gmail.com"
-    },
-
-    {
       from: "2022",
       to: "now",
       name: "Adorabbit",
