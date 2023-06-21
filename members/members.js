@@ -120,6 +120,17 @@ export default function membersList() {
     //FORMER>
 
     //< CTF TEAM
+
+    {
+      "from": "2020",
+      "to": "now",
+      "name": "LilThawg29",
+      "team": "CTF",
+      "role": "CRYPTO",
+      "slogan": "Slogan Paul",
+      "img": "https://kcsc-team.github.io/images/members/Thang_AT16.jpg",
+      "link": "https://www.facebook.com/lilthawg29"
+    },
     {
       from: "2020",
       to: "2022",
