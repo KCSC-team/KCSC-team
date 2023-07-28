@@ -17,7 +17,6 @@ const memberContainer = document.querySelector(
   ".members-container-all .members-container"
 );
 const currentYear = new Date().getFullYear();
-console.log(memberContainer);
 const App = {
   initState: false,
   init: {
@@ -115,7 +114,6 @@ const App = {
 
   renderCTF(year) {
     const _this = this;
-    console.log(year);
     if (year != 1) {
       return members.reduce((array, item) => {
         let to;
@@ -125,10 +123,6 @@ const App = {
           to = 2021;
         }
         let from = parseInt(item.from);
-        console.log({
-          from,
-          to,
-        });
         if (item.team === "CTF" && from <= year && year <= to) {
           array.push(_this.renderTemplate(item));
         }
@@ -146,7 +140,6 @@ const App = {
 
   renderMedia(year) {
     const _this = this;
-    console.log(year);
     if (year != 1) {
       return members.reduce((array, item) => {
         let to;
@@ -156,10 +149,6 @@ const App = {
           to = 2021;
         }
         let from = parseInt(item.from);
-        console.log({
-          from,
-          to,
-        });
         if (item.team === "Media" && from <= year && year <= to) {
           array.push(_this.renderTemplate(item));
         }
@@ -198,7 +187,6 @@ const App = {
 
   CustomRender() {
     const { type, year, role } = JSON.parse(localStorage.getItem("filters"));
-    console.log({ type, year, role });
     if (role === "CTFER") {
       memberContainer.innerHTML = this.renderCTF(year).join("");
     } else if (role === "MEDIA") {
@@ -215,7 +203,6 @@ const App = {
           year: parseInt(value),
         };
         localStorage.setItem("filters", JSON.stringify(formData));
-        console.log(value);
         this.CustomRender();
         selectorValue.innerText = value;
         this.categoryUnActive();
@@ -226,7 +213,6 @@ const App = {
   handleType() {
     teamList.forEach((item) => {
       item.onclick = () => {
-        console.log(item.innerText);
         if (item.innerText === "MEDIA") {
           memberContainer.innerHTML = App.renderMedia(1).join("");
           this.slideRight(membersTeamOverlay);
@@ -257,7 +243,6 @@ const App = {
 
   checkLocalStorage() {
     if (localStorage.getItem("filters")) {
-      console.log(true);
     } else {
       localStorage.setItem("filters", JSON.stringify(this.init));
     }
@@ -282,7 +267,6 @@ const App = {
   start() {
     this.checkLocalStorage();
     App.handleStatus();
-    console.log(App.renderCTF());
     App.handleSelecter();
     App.handleType();
     App.handleYearSelector();

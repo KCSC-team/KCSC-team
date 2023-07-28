@@ -5,8 +5,6 @@ import Footer from "./Footer.js";
 const headerContainer = document.querySelector ('#header');
 const footerContainer = document.querySelector ("#footer");
 
-console.log (headerContainer);
-
 headerContainer.innerHTML = Header();
 footerContainer.innerHTML = Footer();
 

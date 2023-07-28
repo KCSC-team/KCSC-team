@@ -764,6 +764,17 @@ export default function membersList() {
     },
 
     {
+      "from": "2020",
+      "to": "now",
+      "name": "phuongnt",
+      "team": "Media",
+      "role": "CONTENT CREATOR",
+      "slogan": "",
+      "img": "https://KCSC-team.github.io/images/members/Phuong_AT17.jpg",
+      "link": "https://www.instagram.com/duahaukhongcodon/"
+    },
+
+    {
       from: "2021",
       to: "now",
       name: "TuilaChim",
@@ -797,16 +808,7 @@ export default function membersList() {
       link: "https://www.facebook.com/Iamthisworldsgod/",
     },
 
-    {
-      "from": "2020",
-      "to": "now",
-      "name": "phuongnt",
-      "team": "Media",
-      "role": "CONTENT CREATOR",
-      "slogan": "",
-      "img": "https://KCSC-team.github.io/images/members/Phuong_AT17.jpg",
-      "link": "https://www.instagram.com/duahaukhongcodon/"
-    },
+    
     {
       "from": "2021",
       "to": "now",

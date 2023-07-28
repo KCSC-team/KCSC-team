@@ -1,6 +1,5 @@
 localStorage.setItem("isShowMore", false);
 const roleBtn = document.querySelectorAll("#content .role-btn");
-console.log(roleBtn);
 
 let init = {
   type: "ALL",

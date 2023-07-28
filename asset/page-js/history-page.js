@@ -3,9 +3,6 @@ const prevBtn = document.querySelector ('.prev-btn')
 const pages = document.querySelectorAll ('.page')
 const pageContainer = document.querySelector ('.page-container')
 
-console.log (nextBtn, prevBtn)
-
-
 const App = {
     currentIndex: 0,
 
@@ -21,8 +18,6 @@ const App = {
         } else {
             pageContainer.style.left = '-' + this.currentPagePosition + '%';
         }
-        console.log (this.currentIndex)
-        console.log (this.currentPagePosition)
     },
 
     prevPage () {
@@ -35,19 +30,15 @@ const App = {
         } else {
             pageContainer.style.left = '-' + this.currentPagePosition + '%';
         }
-        console.log (this.currentIndex)
-        console.log (this.currentPagePosition)
     },
 
     start () {
         nextBtn.onclick = () => {
-            console.log (this)
             this.nextPage();
             pages[this.currentIndex].scrollTo (0,0)
         }
 
         prevBtn.onclick = () => {
-            console.log (this)
             this.prevPage();
             pages[this.currentIndex].scrollTo (0,0)
         }
