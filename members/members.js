@@ -874,16 +874,6 @@ export default function membersList() {
     {
       from: "2022",
       to: "now",
-      name: "2002cactus",
-      team: "Media",
-      role: "DESIGNER",
-      slogan: "Every piece is a Masterpiece.",
-      img: "https://KCSC-team.github.io/images/members/Vu_Ha_AT19.jpg",
-      link: "https://www.facebook.com/profile.php?id=100051444794852&mibextid=ZbWKwL",
-    },
-    {
-      from: "2022",
-      to: "now",
       name: "Limm07",
       team: "Media",
       role: "SUPPORT",
