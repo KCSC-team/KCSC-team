@@ -922,15 +922,6 @@ export default function membersList() {
       img: "/images/members/Vi.jpg",
       link: "",
     },
-    {
-      name: "Tường Vy",
-      team: "Media",
-      role: "CONTENT CREAtoR",
-      slogan: "No pain, no gain",
-      img: "https://KCSC-team.github.io/images/members/Vy-AT18N.jpg",
-      from: "2024",
-      to: "now",
-    },
 
     {
       from: "2022",
@@ -965,6 +956,16 @@ export default function membersList() {
       link: "",
     },
 
+    {
+      name: "Tường Vy",
+      team: "Media",
+      role: "CONTENT CREAtoR",
+      slogan: "No pain, no gain",
+      img: "https://KCSC-team.github.io/images/members/Vy-AT18N.jpg",
+      from: "2024",
+      to: "now",
+    },
+    
     //MEDIA TEAM>
   ];
 
